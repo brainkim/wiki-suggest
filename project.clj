@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/core.async "0.1.242.0-44b1e3-alpha"]
                  [org.clojure/core.match "0.2.0"]
-                 [org.clojure/data.json "0.2.3"] 
+                 [org.clojure/data.json "0.2.3"]
                  [seesaw "1.4.4"]
                  [http-kit "2.1.13"]]
   :main wiki-suggest.core)

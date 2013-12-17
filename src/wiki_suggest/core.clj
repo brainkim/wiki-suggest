@@ -41,7 +41,7 @@
               (if-not (blank? v)
                 (do
                   (gui/set-view! v)
-                  (recur v))
+                  (recur nil))
                 (recur query))))
         (recur (<! queries)))))
   (gui/show!))

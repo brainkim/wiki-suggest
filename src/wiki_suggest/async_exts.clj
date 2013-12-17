@@ -27,6 +27,6 @@
           (let [v (<! (first chs'))]
             (if (nil? v)
               (recur (rest chs'))
-              (do 
+              (do
                 (>! out v)
                 (recur chs')))))))))
